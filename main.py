@@ -100,11 +100,11 @@ print(f"There are {pocet_slov_s_velkym_pismenom - pocet_velkych_slov} titlecase 
 print(f"There are {pocet_cisel} numeric strings.")
 print(f"The sum of all the numbers {suma_cisel}")
 
-vycistena_slova = [slova.strip(",.:;'") for slova in TEXTS[vyber_textu - 1].split():
-    pocet_pismen_ve_slovech = len(vycistena_slova)
-    pismena_ve_slovech.append(pocet_pismen_ve_slovech)
+vycistena_slova = [slova.strip(",.:;'") for slova in TEXTS[vyber_textu - 1].split()]
+pocet_pismen_ve_slovech = len(vycistena_slova)
+pismena_ve_slovech.append(pocet_pismen_ve_slovech)
 
-nejdelsi_slovo = int(max(pismena_ve_slovech))
+#nejdelsi_slovo = int(max(pismena_ve_slovech))
 
 vyskyt_slov = {}
 for cetnost in pismena_ve_slovech:
