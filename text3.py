@@ -124,16 +124,3 @@ for delka_slova in serazeny_vyskyt_slov:
         print(f"{delka_slova: ^4}|{serazeny_vyskyt_slov[delka_slova]*"*": ^1}"
              + f"{" "*((nejvyssi_cetnost - serazeny_vyskyt_slov[delka_slova])+8)}"
              + f"|{serazeny_vyskyt_slov[delka_slova]}")
-
-   
-
-  
-
- 
-
-
-
-
-
-   
-  

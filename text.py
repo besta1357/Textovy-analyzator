@@ -125,6 +125,9 @@ print("LEN|".center(5) + "OCCURENCES".center(15) + "| NR.".center(0))
 print(cara)
 for delka_slova in serazeny_vyskyt_slov:
     #print(f"{delka_slova}|".center(8) + ((serazeny_vyskyt_slov[delka_slova])*"*") + f"|{serazeny_vyskyt_slov[delka_slova]}".center(10))
-    print(f"{delka_slova: ^4}|{serazeny_vyskyt_slov[delka_slova]*"*": ^4}" + f"{" ": ^1}" + f"{serazeny_vyskyt_slov[delka_slova]}")               
+    print(f"{delka_slova: ^4}|{serazeny_vyskyt_slov[delka_slova]*"*": ^4}" + f"{" ": ^1}" + f"{serazeny_vyskyt_slov[delka_slova]}") 
+print(cara)
+print("End of program. Bye!")
+
     
   
